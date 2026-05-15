@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvSkillDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill"/>
+
+    <TextView
+        android:id="@+id/tvPhoneDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"/>
+
+    <TextView
+        android:id="@+id/tvAddressDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"/>
+
+    <TextView
+        android:id="@+id/tvExperienceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience"/>
+
+    <TextView
+        android:id="@+id/tvDobDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB"/>
+
+    <TextView
+        android:id="@+id/tvRateDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Rate"/>
+
+    <TextView
+        android:id="@+id/tvAvailableDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available"/>
+
+</LinearLayout>
